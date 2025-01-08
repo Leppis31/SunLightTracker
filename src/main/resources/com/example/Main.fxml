@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.MainController">
+    <Text fx:id ="areaText"/>
+    <Button fx:id="getWeatherButton" text="Get Weather" onAction="#onGetWeatherButtonClicked"/>
+    <Button fx:id="checkSunlightButton" text="Check Sunlight" onAction="#onCheckSunlightButtonClicked"/>
+    <Button fx:id="startTrackingButton" text="Start Tracking" onAction="#onStartTrackingClicked"/>
+    <Button fx:id="stopTrackingButton" text="Stop Tracking" onAction="#onStopTrackingClicked"/>
+    <Button fx:id="showTrackedSunlightButton" text="Show Tracked Sunlight" onAction="#onShowTrackedSunlightClicked"/>
+    <TextField fx:id="mondayTextField" promptText="Monday"/>
+    <TextField fx:id="tuesdayTextField" promptText="Tuesday"/>
+    <TextField fx:id="wednesdayTextField" promptText="Wednesday"/>
+    <TextField fx:id="thursdayTextField" promptText="Thursday"/>
+    <TextField fx:id="fridayTextField" promptText="Friday"/>
+    <TextField fx:id="saturdayTextField" promptText="Saturday"/>
+    <TextField fx:id="sundayTextField" promptText="Sunday"/>
+    <Button fx:id="saveButton" text="Save" onAction="#onSaveButtonClicked"/>
+    <Button fx:id="showSunlightExposureButton" text="Show Sunlight Exposure" onAction="#onShowSunlightExposureClicked"/>
+</VBox>
